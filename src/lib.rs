@@ -1,14 +1,3 @@
-// -*- mode: rust; -*-
-//
-// This file is part of ed25519-dalek.
-// Copyright (c) 2017-2019 isis lovecruft
-// See LICENSE for licensing information.
-//
-// Authors:
-// - isis agora lovecruft <isis@patternsinthevoid.net>
-
-//! Integration tests for ed25519-dalek.
-
 #[cfg(all(test, feature = "serde"))]
 extern crate bincode;
 extern crate ed25519_dalek;
